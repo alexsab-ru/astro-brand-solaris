@@ -45,6 +45,6 @@ export default defineConfig({
 			},
 		},
 	},
-	site: 'https://site.com',
+	site: 'https://solaris.alexsab.ru',
 	base: "/"
 });

@@ -1,5 +1,5 @@
 .btn {
-	@apply cursor-pointer px-8 sm:px-10 rounded-btn py-3.5 bg-gradient-to-r from-accent-500 to-accent-400 text-white text-center font-medium transition-colors duration-300 hover:to-accent-500 inline-block;
+	@apply cursor-pointer px-8 sm:px-10 rounded-btn py-3.5 btn-gradient hover:btn-gradient-hover text-white text-center font-medium transition-colors duration-300 inline-block;
 	&.btn-o {
 		@apply bg-transparent text-accent-500 hover:bg-accent-400 hover:text-white;
 	}

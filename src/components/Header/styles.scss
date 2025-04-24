@@ -6,7 +6,7 @@
 }
 .header-child-link{
 	// @apply lg:!block text-black pl-8 lg:pl-5 max-w-[200px];
-	@apply lg:!block text-black pl-8 lg:pl-5 btn-gradient-transparent hover:btn-gradient;
+	@apply lg:!block text-black pl-8 lg:pl-5 brand-gradient-transparent hover:brand-gradient;
 }
 .cols-0 {
 	@apply columns-auto;

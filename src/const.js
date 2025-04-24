@@ -45,11 +45,14 @@ export const LINKS_MENU = [
 	},
 	// {url: 'trade-in/', name: 'Оценка автомобиля'},
 	{url: 'special-offers/', name: 'Спецпредложения'},
-	{url: 'news/', name: 'Новости'},
 	{url: 'test-drive/', name: 'Запись на тест-драйв'},
 	{url: 'service-request/', name: 'Запись на сервис'},
 	{url: '#services', name: 'Услуги'},
-	{url: 'contacts/', name: 'Контакты'},
+	{url: 'javascript:void(0)', name: 'О SOLARIS', children: [
+		{url: 'about/', name: 'О бренде'},
+		{url: 'news/', name: 'Новости'},
+		{url: 'contacts/', name: 'Контакты'},
+	]},
 ];
 // Коллекции
 export const COLLECTIONS = [

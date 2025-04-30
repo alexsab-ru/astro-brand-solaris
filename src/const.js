@@ -45,6 +45,7 @@ export const LINKS_MENU = [
 	},
 	// {url: 'trade-in/', name: 'Оценка автомобиля'},
 	{url: 'special-offers/', name: 'Спецпредложения'},
+	{url: 'for-owners/', name: 'Владельцам'},
 	{url: 'test-drive/', name: 'Запись на тест-драйв'},
 	{url: 'service-request/', name: 'Запись на сервис'},
 	{url: '#services', name: 'Услуги'},
@@ -57,6 +58,7 @@ export const LINKS_MENU = [
 // Коллекции
 export const COLLECTIONS = [
 	{name: 'special-offers', title: 'Спецпредложения'},
+	{name: 'for-owners', title: 'Владельцам'},
 	{name: 'news', title: 'Новости'},
 ];
 // Текстовая строка над хедером

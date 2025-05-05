@@ -48,7 +48,7 @@ export const carsOption = [
 
 <div class="grid gap-7 sm:gap-10 mb-20">
 {carsOption.map((item, idx) => (
-	<div class="p-4 sm:p-5 xl:p-10 rounded-[32px] bg-[#f5f4f3] flex flex-col lg:flex-row items-center justify-between gap-7 sm:gap-10">
+	<div class="p-4 sm:p-5 xl:p-10 rounded-[32px] bg-brand-light-color flex flex-col lg:flex-row items-center justify-between gap-7 sm:gap-10">
 		<div class="flex flex-col justify-between lg:w-1/2">
 			<h3>{item.title}</h3>
 			<p>{item.description}</p>
@@ -62,7 +62,7 @@ export const carsOption = [
 ## Преимущества корпоративной программы
 
 <div class="flex flex-wrap gap-4 text-center pt-10 mb-10 md:mb-20">
-	{advantages.map(item => (<AdvantagesItem item={item} classes="bg-[#f5f4f3] py-6 lg:py-10 px-4 flex flex-col items-center flex-grow shrink-0 basis-full sm:basis-[calc(50%-16px)] lg:basis-[calc(33.33%-16px)] rounded-[16px]" />)) }
+	{advantages.map(item => (<AdvantagesItem item={item} classes="bg-brand-light-color py-6 lg:py-10 px-4 flex flex-col items-center flex-grow shrink-0 basis-full sm:basis-[calc(50%-16px)] lg:basis-[calc(33.33%-16px)] rounded-[16px]" />)) }
 </div>
 
 <SpecialSalonsInfo dataFormName="Узнать подробнее. Корпоративным клиентам" />
